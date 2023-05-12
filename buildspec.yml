@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+  pre_build:
+    commands:
+      - echo installing source npm dependencies...
+      - npm install
+  build:
+    commands:
+      - echo running test project
+      - npm run test
+      - echo building project
+      - npm run build
+  post_build:
+    commands:
+      - echo build completed on `date`
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'dist'
+  discard-paths: no
+cache:
+  paths:
+    - 'node_modules/**/*'

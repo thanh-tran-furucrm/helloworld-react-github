@@ -1,0 +1,13 @@
+body {
+  background-color: coral;
+}
+
+.center-screen {
+  margin-top: 20vh;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.title {
+  color: white;
+}
