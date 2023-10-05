@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className='center-screen'>
       <div className='title'>
-        <h1 data-testid='text-title'>Congratulation!</h1>
+        <h1 data-testid='text-title'>hello!</h1>
       </div>
       <div>
         <button 
