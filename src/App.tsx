@@ -9,7 +9,8 @@ const App = () => {
   return (
     <div className='center-screen'>
       <div className='title'>
-        <h1 data-testid='text-title'>hello!</h1>
+        <h1 data-testid='text-title'>Congratulation!</h1>
+        <h2>Your first react app - with CI/CD - aws pipeline and github workflow supported</h2>
       </div>
       <div>
         <button 
